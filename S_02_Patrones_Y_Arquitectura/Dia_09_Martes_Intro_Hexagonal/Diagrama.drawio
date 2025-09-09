@@ -1,0 +1,31 @@
+<mxfile host="65bd71144e">
+    <diagram id="QarmNHMDG40MG8Uosh1X" name="Page-1">
+        <mxGraphModel dx="2134" dy="501" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="ServicioDeNotificacion()&lt;br&gt;Orden()" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="120" width="140" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="agregar_item()&lt;br&gt;calcular_total()&lt;br&gt;calcular_peso_total()&lt;br&gt;procesar_pago()&lt;br&gt;notificar()&lt;br&gt;enviar_confirmacion_de_orden()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="-30" y="140" width="200" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="MetodoPago&lt;br&gt;INotificacion&lt;br&gt;IOrdenRepositoy" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="155" width="110" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" style="edgeStyle=none;html=1;entryX=0.455;entryY=0.99;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Views Django&lt;br&gt;App Movil&lt;br&gt;Script Terminal&lt;br&gt;Web Page" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="300" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" style="edgeStyle=none;html=1;" edge="1" parent="1" source="7" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="PagoConTarjeta(MetodoPago)&lt;br&gt;PagoConPaypal(MetodoPago)&lt;br&gt;PagoConCripto(MetodoPago)&lt;br&gt;MensajeroEmail(INotificacion)&lt;br&gt;MensajeroSMS(INotificacion)&lt;br&gt;OrdenRepositoryPostgreSQL(IOrdenRepository)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="310" width="280" height="280" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
