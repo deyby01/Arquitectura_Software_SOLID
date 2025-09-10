@@ -1,0 +1,1 @@
+### "El objetivo de este proyecto es construir una aplicación completa siguiendo la Arquitectura Hexagonal, integrando las capas de Dominio, Adaptadores y Aplicación para crear el sistema tienda_hexagonal."
