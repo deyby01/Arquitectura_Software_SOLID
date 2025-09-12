@@ -1,6 +1,6 @@
-from tienda.domain.models import Orden, IProducto
-from tienda.domain.ports import IOrdenRepository, INotificacion, MetodoPago
-from tienda.domain.exceptions import OrdenNoEncontradaError
+from src.tienda.domain.models import Orden, IProducto
+from src.tienda.domain.ports import IOrdenRepository, INotificacion, MetodoPago
+from src.tienda.domain.exceptions import OrdenNoEncontradaError
 
 class OrdenService:
     def __init__(self, orden_repository: IOrdenRepository):

@@ -10,3 +10,7 @@ La app de Django (api/): Será la capa de "adaptadores".
 api/models.py: Contendrá los modelos de Django. Actuará como parte de nuestro adaptador de persistencia.
 
 api/views.py y api/serializers.py: Serán nuestros adaptadores primarios, traduciendo las peticiones HTTP a llamadas a nuestros servicios de aplicación.
+
+### Resumen repositorio
+
+Hoy vamos a construir la pieza más importante que conecta nuestro núcleo de negocio con Django: el adaptador de persistencia. Crearemos un DjangoOrdenRepository que utilizará el ORM (Mapeo Objeto-Relacional) de Django para guardar y leer nuestras órdenes en una base de datos real (por ahora, una base de datos SQLite que Django crea por defecto).

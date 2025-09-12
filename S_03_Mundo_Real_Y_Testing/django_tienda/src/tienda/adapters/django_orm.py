@@ -1,6 +1,6 @@
-from tienda.domain.models import Orden, Libro, CursoOnline, IProducto
-from tienda.domain.ports import IOrdenRepository
-from tienda.domain.exceptions import OrdenNoEncontradaError
+from src.tienda.domain.models import Orden, Libro, CursoOnline, IProducto
+from src.tienda.domain.ports import IOrdenRepository
+from src.tienda.domain.exceptions import OrdenNoEncontradaError
 from api.models import OrdenModel
 
 class DjangoOrdenRepository(IOrdenRepository):
